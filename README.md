@@ -14,7 +14,7 @@ Through pypi:
 
 Or take the manual route:
 
-`git clone https://github.com/kyleterry/djangohtml5boilerplate.git && cd djangohtml5boilerplate && python setup.py install`
+`git clone https://github.com/kyleterry/django-html5-boilerplate.git && cd djangohtml5boilerplate && python setup.py install`
 
 ## Configuration
 
