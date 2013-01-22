@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% block site_title %}{% block page_title %}{% endblock page_title %}{% endblock site_title %}</title>
+
+        {% block meta %}
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        {% endblock meta %}
+
+        {% block css %}
+        {% endblock css %}
+
+        {% block js %}
+        {% endblock js %}
+
+        {% block head %}
+        {% endblock head %}
+
+    </head>
+    <body>
+        {% block body %}
+
+            {% block header %}
+                {% include "html5boilerplate/_header.html" %}
+            {% endblock header %}
+
+            {% block nav %}
+                {% include "html5boilerplate/_nav.html" %}
+            {% endblock nav %}
+
+            {% block main %}
+                {% include "html5boilerplate/_main.html" %}
+            {% endblock content_wrapper %}
+
+            {% block footer %}
+                {% include "html5boilerplate/_footer.html" %}
+            {% endblock footer %}
+
+        {% endblock body %}
+
+        {% block body_js %}
+        {% endblock body_js %}
+
+    </body>
+</html>
