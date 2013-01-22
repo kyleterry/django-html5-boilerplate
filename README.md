@@ -10,7 +10,7 @@ HTML5.
 
 Through pypi:
 
-`pip install djangohtml5boilerplate`
+`pip install django-html5-boilerplate`
 
 Or take the manual route:
 
